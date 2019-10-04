@@ -1,0 +1,23 @@
+.euFoto{
+    max-width: 256px;
+}
+.imagemProduto
+{
+    width: 100%;
+    max-width: 256px;
+    max-height: 256px;
+
+}
+.imagemProduto-bg
+{
+    width: 100%;
+    max-width: 400px;
+    
+
+}
+.containerImagem{
+    height: 256px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
