@@ -1,6 +1,6 @@
 export default class UsuarioServico{
-    url = "http://localhost:8000/api/usuarios";
-
+   // url = "http://localhost:8000/api/usuarios";
+    url = "https://laravel-loja-api.herokuapp.com/api/usuarios"
     estouLogado(){
         let logado = false
     

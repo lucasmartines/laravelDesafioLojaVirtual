@@ -1,7 +1,7 @@
 export default class ProdutoServico
 {
-     url = "http://localhost:8000/api/produtos"
-
+     //url = "http://localhost:8000/api/produtos"
+     url = "https://laravel-loja-api.herokuapp.com/api/produtos"
      produtos = [];
      async VerProdutos( produtosCallback ){// retornar uma lista de produtos servidor
 
