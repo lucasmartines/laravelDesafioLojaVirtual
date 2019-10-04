@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/',function () {
+     return redirect()->away("http://lojalucas.somee.com/");
+});
+Route::get('/welcome', function () {
     return view('welcome');
 });
